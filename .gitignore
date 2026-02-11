@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache
+.cache/
+.llrem-cache/
+*.llrem-backup
+
+# Test fixtures (if they contain sensitive data)
+test/fixtures/real-transcripts/
+
+# Analysis outputs
+llrem-report-*.json
+llrem-report-*.html
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Existing
+repomix-output.*
+
+# Local data (personal Claude transcripts)
+daniels-data/
